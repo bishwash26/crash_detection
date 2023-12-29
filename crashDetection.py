@@ -35,6 +35,12 @@ while True:
                 cv2.imshow(currentFrame)
                 writer.write(currentFrame)
             writer.release()
+            #TO:DO 
+            # Upload the created video to file storage and then create a sharable link.
+            # Send file link as well as the location (locaiton can be hard coded since cc tv isn't mobile) as payload
+            # Send it through an external client for now whatsapp/viber
+            
+            
             # once the video is created, we will clear the framlist
             frameList.clear()
         else: 
